@@ -10,7 +10,7 @@ const Backdrop = () => {
          ref={shadows}
          temporal
          frames={60} // Increase the number of frames for smoother temporal blending
-         alphaTest={0.85}
+         alphaTest={0.55}
          scale={10}
          resolution={1024} // Increase the resolution to make shadows less pixelated
          rotation={[Math.PI / 2, 0, 0]}
